@@ -5,8 +5,13 @@ ManyWho Slack Service
 
 [![Build Status](https://travis-ci.org/manywho/service-slack.svg?branch=develop)](https://travis-ci.org/manywho/service-slack)
 
-
 This service allows you to integrate your flows with Slack.
+
+## Running
+
+The service is compatible with Heroku, and can be deployed by clicking the button below:
+
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ## Contributing
 
