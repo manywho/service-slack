@@ -2,5 +2,6 @@
   "name": "ManyWho Slack Service",
   "description": "A plugin that allows your ManyWho Flows to integrate with Slack",
   "repository": "https://github.com/manywho/service-slack",
+  "logo": "https://s3.amazonaws.com/manywho-service-assets/icons/service-slack.png",
   "keywords": ["manywho", "slack", "plugin", "workflow"]
 }
