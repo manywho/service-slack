@@ -11,7 +11,7 @@ This service allows you to integrate your flows with Slack.
 
 The service is compatible with Heroku, and can be deployed by clicking the button below:
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/manywho/service-slack)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/manywho/service-slack/tree/develop)
 
 ## Contributing
 
