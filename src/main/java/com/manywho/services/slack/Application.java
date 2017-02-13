@@ -1,11 +1,14 @@
 package com.manywho.services.slack;
 
 import com.manywho.sdk.services.ServiceApplication;
+import com.manywho.sdk.services.servers.EmbeddedServer;
+import com.manywho.sdk.services.servers.undertow.UndertowServer;
 
 public class Application extends ServiceApplication {
     public static void main(String[] args) throws Exception {
-        Application application = new Application();
-        application.setModule(new ApplicationModule());
-        application.startServer("/api/slack/2");
+        EmbeddedServer server = new UndertowServer();
+        server.setApplication(Application.class);
+        server.addModule(new ApplicationModule());
+        server.start("/api/slack/2");
     }
 }
